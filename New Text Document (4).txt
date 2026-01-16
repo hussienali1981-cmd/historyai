@@ -1,0 +1,13 @@
+cd frontend
+npm install
+npm run dev
+
+
+
+
+API: http://localhost:8000
+Frontend: http://localhost:3000
+
+## تشغيل باستخدام Docker
+1. ضع مفاتيحك في `.env`
+2. شغّل:

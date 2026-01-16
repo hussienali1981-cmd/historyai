@@ -1,0 +1,33 @@
+historyai/
+├─ backend/                    # FastAPI app
+│  ├─ app/
+│  │  ├─ __init__.py
+│  │  ├─ main.py
+│  │  ├─ config.py
+│  │  ├─ db.py
+│  │  ├─ models.py
+│  │  ├─ schemas.py
+│  │  ├─ auth.py
+│  │  ├─ ai_clients.py
+│  │  ├─ jobs.py
+│  │  └─ workers.py
+│  ├─ requirements.txt
+│  └─ Dockerfile
+├─ worker/
+│  └─ worker.py
+├─ frontend/
+│  ├─ package.json
+│  ├─ vite.config.js
+│  └─ src/
+│     ├─ main.jsx
+│     ├─ App.jsx
+│     ├─ api.js
+│     └─ pages/
+│        ├─ Login.jsx
+│        ├─ Signup.jsx
+│        ├─ CreateJob.jsx
+│        ├─ JobStatus.jsx
+│        └─ AdminDashboard.jsx
+├─ docker-compose.prod.yml
+├─ .env.example
+└─ README.md
