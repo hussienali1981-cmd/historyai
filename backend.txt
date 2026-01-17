@@ -1,6 +1,8 @@
+python worker/worker.py
 
 
-pip install -r requirements.txt
+
+
 
 
 
