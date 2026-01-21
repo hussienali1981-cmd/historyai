@@ -22,21 +22,22 @@ def plan_scenes_from_script(script_text):
 def generate_image(prompt, out_filename=None):
     out_filename = out_filename or f"{OUTPUT_DIR}/images/{uuid.uuid4().hex}.jpg"
     os.makedirs(os.path.dirname(out_filename), exist_ok=True)
-    # TODO: call Stable Diffusion / DALL·E and write image bytes
+    # TODO: AIzaSyBtnwizS8xhb5nNXWmIS6-0GJY10Kra2Sw / DALL·E and write image bytes
     open(out_filename, "wb").close()
     return out_filename
 
 def generate_voice(text, out_filename=None):
     out_filename = out_filename or f"{OUTPUT_DIR}/audio/{uuid.uuid4().hex}.mp3"
     os.makedirs(os.path.dirname(out_filename), exist_ok=True)
-    # TODO: call ElevenLabs and save mp3
+    # TODO: sk_a9b58fe07a4f5c42df88f80541932feb420c64dad189b15b
     open(out_filename, "wb").close()
     return out_filename
 
 def generate_cinematic_video(prompt, out_filename=None, duration=6):
     out_filename = out_filename or f"{OUTPUT_DIR}/videos/{uuid.uuid4().hex}.mp4"
     os.makedirs(os.path.dirname(out_filename), exist_ok=True)
-    # TODO: call Runway/Pika and save mp4
+    # TODO: key_2d468af889fdeb5dd737dce2d3eda8bcad9204f9dbccd8c60b7da325b49107f1478486d9ec0af704015476abb22517fec26c53fcb3bf050624005d9259bbb718
     open(out_filename, "wb").close()
     return out_filename
+
 
