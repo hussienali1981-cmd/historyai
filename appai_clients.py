@@ -3,7 +3,7 @@ import uuid
 from .config import OUTPUT_DIR
 
 def generate_script_openai(topic, duration, language="ar"):
-    # TODO: استبدل هذا باستدعاء OpenAI الفعلي
+    # TODO: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
     script = f"Hook: كيف سقطت {topic}؟\n\nالمقدمة...\n\n(نص تجريبي — استبدل بالـ OpenAI call)."
     return script
 
@@ -39,3 +39,4 @@ def generate_cinematic_video(prompt, out_filename=None, duration=6):
     # TODO: call Runway/Pika and save mp4
     open(out_filename, "wb").close()
     return out_filename
+
